@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Part 3</title>
+  <link rel="stylesheet" href="../header.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="mainHeader">
+  <div class="header-left">
+    <h1 id="pageTitle">Assignment 6</h1>
+  </div>
+  <nav class="header-right">
+    <a href="../index.html">Part 1</a>
+    <a href="../part2/index.html">Part 2</a>
+    <a href="#" class="active">Part 3</a>
+    <a href="../Part4/index.html">Part 4</a>
+  </nav>
+</header>
+<br><br><br>
+
+<main class = "page-content">
+  <h1>Part 3</h1>
+
+  <h2>Mouse Events</h2>
+  <br>
+  <div id="box">Where?</div>
+  <br><br><br>
+  <hr>
+  <br><br><br>
+
+  <h2>Keyboard Events</h2>
+  <br>
+  <input type="text" id="inputField" placeholder="Write..." />
+  <p>Text: <span id="output"></span></p>
+  <br><br><br>
+  <hr>
+  <br><br><br>
+
+  <h2>Calculator</h2>
+  <br>
+  <input type="number" id="num1" placeholder="Number">
+  <input type="number" id="num2" placeholder="Number">
+
+  <button onclick="calculate('+')">+</button>
+  <button onclick="calculate('-')">-</button>
+  <button onclick="calculate('*')">*</button>
+  <button onclick="calculate('/')">/</button>
+
+  <p>Result: <span id="result">—</span></p>
+  <br><br><br>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
